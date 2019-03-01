@@ -1,0 +1,224 @@
+html,body,div,p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    font-family:PingFang-SC-Regular;
+}
+button{
+    border:none;
+}
+#app{
+    overflow-x: hidden;
+    background-image: url(./img/drop-bg.png);
+    background-position: 50% 72%;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+#layer{
+    z-index: 100;
+    display: none
+}
+.layer-out{
+
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5)
+}
+.layer-content{
+    border-radius: 0.4rem;
+    background: #121251;
+    width: 15rem;
+}
+.layer-content-box{
+    margin: 0 0.95rem;
+}
+.layer-title{
+    justify-content: center;
+    align-items: center;
+    font-size:0.85rem;
+    font-weight:bold;
+    color: #fff;
+    width: 100%;
+    height: 2.8rem;
+    
+}
+.layer-text{
+    border-top:1px solid rgba(113,123,226,0.2);;
+    border-bottom: 1px solid rgba(113,123,226,0.2);
+    padding:1.15rem 0;
+}
+.layer-text p{
+    font-size: 0.7rem;
+    color:#717BD2;
+    margin-top: 0.725rem;
+    font-weight:normal;
+}
+#pm{
+   margin:0;
+}
+.assure{
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    color: #F6CD1A;
+    width: 100%;
+    height: 2.8rem;
+}
+
+
+
+.display-flex{
+   
+    display: flex;
+    display: -webkit-flex;
+}
+.activity-instructions{
+    height: 1.5rem;
+    width: 100%;
+    padding-top:1.15rem;
+    justify-content: flex-end;
+}
+.activity-instructions button{
+    justify-content: center;
+    align-items: center;
+    font-size: 0.65rem;
+    width: 4.85rem;
+    color:#10316A;
+    border-radius: 1.4rem;
+    margin-right: -0.65rem;
+    background: -webkit-linear-gradient(#00EDFF , #0099FF); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient( #00EDFF, #0099FF); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient( #00EDFF, #0099FF); /* Firefox 3.6 - 15 */
+    background: linear-gradient( #00EDFF , #0099FF); /* 标准的语法 */
+    font-weight: bold;
+    
+}
+.activity-img{
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.activity-img img{
+    width:15rem;
+    height:14.65rem
+}
+.activity-img-text{
+    margin-top: 1.1rem;
+    width: 100%;
+   justify-content: center;
+   align-items: center;
+}
+.activity-img-text img{
+    width: 11.875rem;
+    height:1.9rem;
+}
+.content{
+    margin-top: 1.65rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.activity-content{
+    width:16.2rem;
+    background: #121251;
+}
+.coneten-tit-img{
+   position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 3.55rem;
+    width: 100%;
+}
+.coneten-tit-img p{
+    font-weight:bold;
+    color:rgba(18,18,81,1);
+    font-size: 0.7rem;
+    z-index: 10;
+    margin-bottom: 0.2rem;
+}
+.coneten-tit-img img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 1.7rem;
+}
+.conetent-step{
+    padding:0.1rem;
+    width: 12.2rem;
+    margin: 0 auto;
+}
+.conetent-step p{
+    font-size:0.6rem;
+    color: #717BD2;
+    font-weight: normal;
+    margin-top: 0.5rem;
+}
+.content-time{
+    margin-top: 1.5rem;
+}
+.content-coin{
+    background: url(./img/get-bg.png);
+    background-size: 100% 100%;
+    background-position: 50%;
+    margin:1rem auto;
+    width:14.75rem;
+    height:5.5rem;
+}
+.copyright{
+    padding-bottom: 0.75rem; 
+    width: 100%;
+    text-align: center;
+    font-size: 0.6rem;
+    color:#717BD2;
+}
+footer{
+    height: 3.7rem;
+    width: 100%;
+}
+.content-coin-box{
+    padding:0.7rem 1.35rem;
+}
+.coin-top{
+    margin-top: -0.2rem;
+    justify-content: space-between;
+}
+.coin-name{
+    align-items: center;
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 900;
+}
+.coin-has{
+    font-weight:bold;
+    align-items: center;
+    font-size: 0.6rem;
+    color: #fff;
+}
+.coin-all-num{
+    font-weight:bold;
+    align-items: center;
+    font-size: 0.6rem;
+    color: #fff;
+}
+.coin-bottom{
+    justify-content: space-between;
+}
+.coin-get button{
+    font-weight:bold;
+    width: 5.4rem;
+    height: 1.75rem;
+    font-size: 0.75rem;
+    color: #FF7107;
+    background-color: #fff;
+    border-radius: 0.875rem;
+}
